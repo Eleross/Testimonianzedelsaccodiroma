@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Il catalogo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- ThemeFisher Icon -->
+    <link rel="stylesheet" href="plugins/themefisher-fonts/themefisher-fonts.css">
+    <!-- Light Box -->
+    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map_canvas {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+    </style>
+    <script src="plugins/modernizr.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <!-- Loader to display before content Load-->
+  <div class="loading">
+
+    <!-- <img src="img/loader.gif" alt=""> -->
+  </div> 
+
+
+ <!-- Navigation -section
+  =========================-->
+<nav class="navbar navbar-fixed-top navigation" >
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" href="index.html">
+        <img src="images/logo-yellow.png" alt="">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right menu">
+        <li><a href="index-slider.html">Home</a></li>
+        <li><a href="#">Storia</a></li>
+        <li><a href="portfolio.html">Catalogo</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+ <!-- Portfolio Sections 
+ =========================-->
+ <section class="portfolio">
+  <div class="container">
+
+    <div class="row">
+       <div class="bread-marg">
+         <ol class="breadcrumb">
+            <li><a href="index-slider.html">Home</a></li>
+            <li><a href="portfolio.html">Catalogo</a></li>
+        </ol>
+      </div>
+      <div class="col-md-12">
+        <div class="title text-center">
+          <h2>Il catalogo</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="protfolio-mixitup-btn text-center" id="menuCatalogo">
+          <div class="btn-group text-center" >
+
+          <button class="filter btn btn-default btn-main dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-filter="all">collezione<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">collezione testi</a></li>
+            <li><a href="#">collezione opere d'arte</a></li>
+            <li><a href="#">collezione oggetti</a></li>
+            <li role="separator" class="divider"></li>
+              <li><a href="#">collezione completa</a></li>
+          </ul>
+          </div>
+          <div class="btn-group text-center" >
+
+          <button class="filter btn btn-default btn-main dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-filter="all">ordina per<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">ordine cronologico</a></li>
+            <li><a href="#">ordine alfabetico</a></li>
+          </ul>
+          </div>
+          <div class="dropdown" >
+
+            <button class="filter btn btn-default btn-main dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-filter="all">filtra per<span class="caret"></span>
+            </button>
+
+
+            <ul class="dropdown-menu" id="advancedFilter">
+              <!--
+              <li><a href="#">tipologia</a></li>
+              <li><a href="#">autore</a></li>
+              <li><a href="#">data</a></li>
+              <li><a href="#">luogo ?</a></li>
+              <li><a href="#">personaggio storico</a></li>
+            -->
+              <form class="form-group">
+                  <div>
+                     <h3>Tipologia di item</h3>
+                    <button type="button" class="btn btn-primary prova">Libri</button>
+                    <button type="button" class="btn btn-primary prova">Dipinti</button>
+                    <button type="button" class="btn btn-primary prova">Incisioni</button>
+                    <button type="button" class="btn btn-primary prova">Ritratti</button>
+                    <button type="button" class="btn btn-primary prova">Busti</button>
+                    <button type="button" class="btn btn-primary prova">Ceramiche</button>
+                    <button type="button" class="btn btn-primary prova">Armature</button>
+                  </div>
+                  <div>
+                     <h3>Datazione</h3>
+                    <button type="button" class="btn btn-primary">XVI sec.</button>
+                    <button type="button" class="btn btn-primary">XVII sec.</button>
+                    <button type="button" class="btn btn-primary">XVIII sec.</button>
+                    <button type="button" class="btn btn-primary">XIX sec.</button>
+                  </div>
+                  <div>
+                     <h3>Luogo di realizzazione</h3>
+                    <button type="button" class="btn btn-primary">Italia</button>
+                    <button type="button" class="btn btn-primary">Francia</button>
+                    <button type="button" class="btn btn-primary">Germania</button>
+                    <button type="button" class="btn btn-primary">Spagna</button>
+                    <button type="button" class="btn btn-primary">Olanda</button>
+                  </div>
+                  <div>
+                    <h3>Luogo di conservazione</h3>
+                  <select class="form-control" id="sel1">
+                    <option>Austrian National Library</option>
+                    <option>Bayerische Staatsbibliothek</option>
+                    <option>Biblioteca Museu Víctor Balaguer</option>
+                    <option>Biblioteca Reale di Torino</option>
+                    <option>Bibliothèque nationale de France</option>
+                    <option>British Museum</option>
+                    <option>Gallerie Nazionali Barberini Corsini</option>
+                    <option>Kunsthistorisches Museum</option>
+                    <option>Musée national des châteaux de Versailles et de Trianon</option>
+                    <option>Museo degli Uffizi</option>
+                    <option>Museo di Capodimonte</option>
+                    <option>Museo Nazionale di Palazzo Mansi</option>
+                    <option>Palazzo Medici Riccardi</option>
+                    <option>Palazzo Pitti</option>
+                    <option>Staatliche Museum</option>
+                  </select>
+                  </div>
+                  <div>
+                     <div>
+                    <h3>Autore</h3>
+                   <select class="form-control" id="sel1">
+                    <option>Altissimo, Cristofano</option>
+                    <option>Amberger, Christoph</option>
+                    <option>Amérigo, Francisco Javier</option>
+                    <option>Avelli, Francesco Xanto</option>
+                    <option>Bruegel, Pieter detto Bruegel il vecchio</option>
+                    <option>Cellini, Benvenuto</option>
+                    <option>Fontana, Guido detto Guido Durantino</option>
+                    <option>Gaillot, Bernard</option>
+                    <option>Gregorovius, Ferdinand</option>
+                    <option>Guicciardini, Francesco</option>
+                    <option>Heemskerck, Maarten van</option>
+                    <option>Hopfer, Daniel</option>
+                    <option>Lingelbach,Johannes</option>
+                    <option>Luciani, Sebastiano detto Sebastiano del Piombo</option>
+                    <option>Norfini, Luigi</option>
+                    <option>Rossi, Giovanni Antonio de'</option>
+                    <option>Seisenegger, Jakob</option>
+                    <option>Soli, Giuseppe Maria</option>
+                    <option>Valdes, Juan de</option>
+                    <option>Vecellio, Tiziano</option>
+                  </select>
+                  </div>
+
+                    <h3>Personaggio storico</h3>
+                  <select class="form-control" id="sel1">
+                    <option>Carlo V</option>
+                    <option>Clemente VII</option>
+                    <option>Georg von Frundsberg</option>
+                    <option>Benvenuto Cellini</option>
+                    <option>Carlo III Borbone</option>
+                    <option>Giovanni delle Bande Nere</option>
+                    <option>Francesco Maria della Rovere</option>
+                  </select>
+                  </div>
+                
+                </form>
+            
+
+            </ul>
+
+
+          </div>
+
+
+          <form class="navbar-form" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Cerca</button>
+          </form>
+        </div>
+
+        <!--CARD SYSTEM 
+
+
+
+
+        -->
+        <div class="container">
+        <div class="row equal">
+          <div class="col-md-4">
+            <div class="thumbnail thumb-portfolio">
+              <img src="immagini/Charles_III,_Duke_of_Bourbon.jpg" alt="">
+              <div class="caption">
+                <h3><strong>Ritratto di Carlo III Duca di Borbone</strong></h3>
+                <p>Autore: <a href="#" target="_blank"><strong>Gaillot, Bernard</strong>
+                <sup><strong>VIAF</strong></sup> </a> </p>
+                <p>Data: <a href="#" target="_blank"><strong>1835</strong></a> 
+                </p>
+                <p>Istituzione fornitrice: <a href="https://en.wikipedia.org/wiki/Joconde" target="_blank"><strong>Joconde database</strong></a>
+                </p>
+                <p><a href="#" class="btn btn-primary" role="button">Tutti i metadati</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail thumb-portfolio">
+              <img src="immagini/Buono e breve resoconto (s) come avvenne nel 1527 nella conquista della città di Roma, fino al giorno 21 giugno..jfif" alt="">
+              <div class="caption">
+                <h3><strong>Buono e breve resoconto di come avvenne nel 1527 nella conquista della città di Roma</strong></h3>
+                <p>Data: <a href="#" target="_blank"><strong>XVI secolo</strong></a> 
+                </p>
+                <p>Istituzione fornitrice: <a href="https://en.wikipedia.org/wiki/Austrian_National_Library" target="_blank"><strong>Austrian National Library</strong></a>
+                </p>
+                <p><a href="#" class="btn btn-primary" role="button">Tutti i metadati</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail thumb-portfolio">
+              <img src="immagini/Clemente VII firenze europeana2.jfif" alt="">
+              <div class="caption">
+                <h3><strong>Clemente VII nell'atto di studiare le carte dell'assedio di Firenze</strong></h3>
+                <p>Autore: <a href="#" target="_blank"><strong>Norfini, Luigi</strong>
+                <sup><strong>VIAF</strong></sup> </a> </p>
+                <p>Data: <a href="#" target="_blank"><strong>1884</strong></a> 
+                </p>
+                <p>Istituzione fornitrice: <a href="http://www.culturaitalia.it/opencms/museid/index_museid.jsp?language=it" target="_blank"><strong>MuseiD-Italia</strong></a></p>
+                <p><a href="#" class="btn btn-primary" role="button">Tutti i metadati</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail thumb-portfolio">
+              <img src="imrid/800px-Portrait_of_a_bearded_man._Cellini,_Benvenuto.png" alt="">
+              <div class="caption">
+                <h3><strong>Autoritratto di Benvenuto Cellini</strong></h3>
+                <p>Autore: <a href="#" target="_blank"><strong>Cellini, Benvenuto</strong>
+                <sup><strong>VIAF</strong></sup> </a> </p>
+                <p>Data: <a href="#" target="_blank"><strong>1540-1543</strong></a> circa
+                </p>
+                <p>Istituzione fornitrice: <a href="#" target="_blank"><strong>Biblioteca Reale di Torino</strong></a></p>
+                <p><a href="#" class="btn btn-primary" role="button">Tutti i metadati</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail thumb-portfolio">
+              <img src="immagini/Rapporto dettagliato e descrizione storica completa, che formò il luogo di Roma il sesto giorno di Mayen, nell'anno di Cristo 1527, da Keyser Caroli il quinto ascoltatore di g.jfif" alt="">
+              <div class="caption">
+                <h3><strong>Rapporto dettagliato e descrizione storica completa, che formò il luogo di Roma il sesto giorno di Maggio, nell'anno di Cristo 1527</strong></h3>
+                <p>Editore: <a href="#" target="_blank"><strong>Joh. Ammon</strong>
+                <sup><strong>VIAF</strong></sup> </a> </p>
+                <p>Data: <a href="#" target="_blank"><strong>1625</strong></a> 
+                </p>
+                <p>Istituzione fornitrice: <a href="#" target="_blank"><strong>Austrian National Library</strong></a></p>
+                <p><a href="#" class="btn btn-primary" role="button">Tutti i metadati</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail thumb-portfolio">
+              <img src="immagini/1024px-Landsknechte.jpg" alt="">
+              <div class="caption">
+                <h3><strong>Lanzichenecchi in parata</strong></h3>
+                <p>Autore: <a href="#" target="_blank"><strong>Hopfer, Daniel</strong>
+                <sup><strong>VIAF</strong></sup> </a> </p>
+                <p>Data: <a href="#" target="_blank"><strong>1530</strong></a> 
+                </p>
+                <p>Istituzione fornitrice: <a href="#" target="_blank"><strong>Wikipedia</strong></a></p>
+                <p><a href="#" class="btn btn-primary" role="button">Tutti i metadati</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail thumb-portfolio">
+              <img src="immagini/carlo V.jfif" alt="">
+              <div class="caption">
+                <h3><strong>Busto di Carlo V</strong></h3>
+                <p>Autore: <a href="#" target="_blank"><strong>Rossi, Giovanni Antonio de'</strong>
+                <sup><strong>VIAF</strong></sup> </a> </p>
+                <p>Data: <a href="#" target="_blank"><strong>1540-1560</strong></a> 
+                </p>
+                <p>Istituzione fornitrice: <a href="#" target="_blank"><strong>MudeiD-Italia</strong></a></p>
+                <p><a href="#" class="btn btn-primary" role="button">Tutti i metadati</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail thumb-portfolio">
+              <img src="immagini/Un rapporto tedesco sulla conquista di Roma da parte dell'esercito imperiale di Carlo V nel 1527, del testimone oculare Ambrosius von Gumppenberg.jfif" alt="">
+              <div class="caption">
+                <h3><strong>Un rapporto tedesco sulla conquista di Roma da parte dell'esercito imperiale di Carlo V nel 1527, del testimone oculare Ambrosius von Gumppenberg</strong></h3>
+                <p>Autore: <a href="#" target="_blank"><strong>Gregorovius, Ferdinand</strong>
+                <sup><strong>VIAF</strong></sup> </a> </p>
+                <p>Data: <a href="#" target="_blank"><strong>1877</strong></a> 
+                </p>
+                <p>Istituzione fornitrice: <a href="#" target="_blank"><strong>Bayerische Staatsbibliothek</strong></a></p>
+                <p><a href="#" class="btn btn-primary" role="button">Tutti i metadati</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail thumb-portfolio">
+              <img src="immagini/bruegel il vecchio sacco di roma collezionedimadamek auction of galerie charpentier tuesday november 30 1954.jfif" alt="">
+              <div class="caption">
+                <h3><strong>Sacco di Roma</strong></h3>
+                <p>Autore: <a href="#" target="_blank"><strong>Bruegel, Pieter detto Bruegel il vecchio</strong>
+                <sup><strong>VIAF</strong></sup> </a> </p>
+                <p>Data: <a href="#" target="_blank"><strong>XVI secolo</strong></a> 
+                </p>
+                <p>Istituzione fornitrice: <a href="#" target="_blank"><strong>The Picture Art Collection / Alamy Stock Foto</strong></a></p>
+                <p><a href="#" class="btn btn-primary" role="button">Tutti i metadati</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  <nav aria-label="Page navigation">
+    <div class="text-center">
+  <ul class="pagination">
+    <li>
+      <li class="active"><a href="portfolion2.html" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><li class="active"><a href="portfolio.html">1</a></li>
+    <li><li class="active"><a href="portfolion2.html">2</a></li>
+    <li><li class="active"><a href="portfolion3.html">3</a></li>
+    <li>
+      <li><li class="disabled"><a href="#">...</a></li>
+    <li>
+      <li class="active"><a href="portfolion3.html" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</div>
+</nav>
+</div>
+        <!--
+        <div id="Container" class="filtr-container row">
+          <div class="filtr-item col-md-4 col-sm-6 col-xs-12" data-category="category-1">
+            <div class="portfolio-list">
+              <a href="portfolio-single.html">
+                <div class="th-mouse-portfolio-card">
+                  <div class="thumbnail portfolio-thumbnail">
+                    <img src="images/portfolio/portfolio-img1.jpg" alt="Portfolio">
+                    <div class="caption portfolio-caption">
+                      <p class="date">16.03.2015</p>
+                      <h3 class="portfolio-title">Merit wogmonk</h3>
+                      <p class="portfolio-subtitle">Branding</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="filtr-item col-md-4 col-sm-6 col-xs-12" data-category="category-2">
+            <div class="portfolio-list">
+              <a href="portfolio-single.html">
+                <div class="th-mouse-portfolio-card">
+                  <div class="thumbnail portfolio-thumbnail">
+                    <img src="images/portfolio/portfolio-img2.jpg" alt="Portfolio">
+                    <div class="caption portfolio-caption">
+                      <p class="date">16.03.2015</p>
+                      <h3 class="portfolio-title">Merit wogmonk</h3>
+                      <p class="portfolio-subtitle">Branding</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="filtr-item col-md-4 col-sm-6 col-xs-12" data-category="category-3">
+            <div class="portfolio-list">
+              <a href="portfolio-single.html">
+                <div class="th-mouse-portfolio-card">
+                  <div class="thumbnail portfolio-thumbnail">
+                    <img src="images/portfolio/portfolio-img3.jpg" alt="Portfolio">
+                    <div class="caption portfolio-caption">
+                      <p class="date">16.03.2015</p>
+                      <h3 class="portfolio-title">Merit wogmonk</h3>
+                      <p class="portfolio-subtitle">Branding</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="filtr-item col-md-4 col-sm-6 col-xs-12" data-category="category-1">
+            <div class="portfolio-list">
+              <a href="portfolio-single.html">
+                <div class="th-mouse-portfolio-card">
+                  <div class="thumbnail portfolio-thumbnail">
+                    <img src="images/portfolio/portfolio-img4.jpg" alt="Portfolio">
+                    <div class="caption portfolio-caption">
+                      <p class="date">16.03.2015</p>
+                      <h3 class="portfolio-title">Merit wogmonk</h3>
+                      <p class="portfolio-subtitle">Branding</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="filtr-item col-md-4 col-sm-6 col-xs-12" data-category="category-2">
+            <div class="portfolio-list">
+              <a href="portfolio-single.html">
+                <div class="th-mouse-portfolio-card">
+                  <div class="thumbnail portfolio-thumbnail">
+                    <img src="images/portfolio/portfolio-img5.jpg" alt="Portfolio">
+                    <div class="caption portfolio-caption">
+                      <p class="date">16.03.2015</p>
+                      <h3 class="portfolio-title">Merit wogmonk</h3>
+                      <p class="portfolio-subtitle">Branding</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="filtr-item col-md-4 col-sm-6 col-xs-12" data-category="category-3">
+            <div class="portfolio-list">
+              <a href="portfolio-single.html">
+                <div class="th-mouse-portfolio-card">
+                  <div class="thumbnail portfolio-thumbnail">
+                    <img src="images/portfolio/portfolio-img6.jpg" alt="Portfolio">
+                    <div class="caption portfolio-caption">
+                      <p class="date">16.03.2015</p>
+                      <h3 class="portfolio-title">Merit wogmonk</h3>
+                      <p class="portfolio-subtitle">Branding</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+-->
+</section>
+<footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="col-md-6">
+                            <!-- footer About section
+                            ========================== -->
+                            <div class="footer-about">
+                                <h3 class="footer-title title-clear">Il progetto</h3>
+                                <p>Testimonianze del sacco di Roma è un progetto nato nell'ambito <br>del corso di Digital Humanities e Patrimonio Culturale  <br>della Laurea Magistrale in Arti Visive dell'Università di Bologna. <br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- footer Address section
+                            ========================== -->
+                            <div class="footer-address">
+                                <h3 class="footer-title title-clear">Contatti</h3>
+                                <p>Università di Bologna, Via Zamboni, 33, 40126 Bologna</p>
+                                <p class="contact-address">
+            
+                                    Indirizzo mail : <a href="mailto:eleonora.rossini5@studio.unibo.it">eleonora.rossini5@studio.unibo.it</a>
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="footer-nav text-center">
+                        <div class="col-md-12">
+                            <ul>
+                                <li><a href="index-slider.html">Home</a></li>
+                                <li><a href="#">Storia</a></li>
+                                <li><a href="portfolio.html">Catalogo</a></li>
+                                <li><a href="#">Contatti</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <p>&copy; 2021 Eleonora Rossini. <br>
+                                    Esame Digital Humanities e Patrimonio Culturale-Laurea magistrale in Arti Visive</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="plugins/jquery.min.js"></script>
+
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick slider -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+    <!-- Lightbox -->
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Parallax -->
+    <script src="plugins/parallax.min.js"></script>
+    <!-- Video -->
+    <script src="plugins/jquery.vide.js"></script>
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <script src="plugins/google-map/gmap.js"></script>
+
+    <script src="js/script.js"></script>
+    </body>
+
+    </html>

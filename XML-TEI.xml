@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+      <title type="main">La historia d'Italia</title>
+      <title type="alt">La historia d'Italia: divisa in venti libri</title>
+      </titleStmt>
+        <editionStmt>
+            <edition>Edition of <date>1616</date></edition> 
+            <author>Francesco Guicciardini</author>
+            <editor>Pietro Maria Bertano</editor>
+            <respStmt>
+            <resp>Adapted by</resp>
+              <name>Thomaso Porcacchi</name>  
+            </respStmt>
+          <respStmt>
+            <resp>Marked in XML by</resp>
+              <name>Eleonora Rossini</name>
+            </respStmt>
+        </editionStmt>
+    
+      <publicationStmt>
+         <publisher>Pietro Maria Bertano</publisher>
+                 <pubPlace>Venezia</pubPlace>
+                 <availability>
+                 <p>Non commercial use</p>
+                 </availability>
+      </publicationStmt>
+      <sourceDesc>
+      <p>Text digitalised and already online.</p>
+      </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">La Historia d'<country>Italia</country></titlePart>
+</docTitle>
+  <byline> Di <docAuthor><abbr type="title">M. </abbr></docAuthor><persName>
+ <forename>Francesco</forename>
+ <surname type="linked">Guicciardini</surname>,</persName> Gentil'huomo fiorentino.</byline>
+  <argument>
+    <p>Divisa in <num>venti</num> libri</p>
+    <p>Riscontrata con tutti gli altri historici, <abbr type="brevigraph">et</abbr> Autori, che dell'istesse cose habbiano scritto,</p>
+    <p>per <persName>
+ <forename>Tomaso</forename>
+ <surname type="linked">Porcacchi</surname>, 
+</persName> 
+da <name type="city">Castiglione Arretino</name></p>
+    <p>Con vn Giudicio fatto dal medesimo, per discoprir tutte le bellezze di questa Historia; <abbr type="brevigraph">et</abbr> una Raccolta di tutte le sentenzie sparse per l'Opera.</p>
+    <p>Et con <num>due</num> Tauole: vna de gli Autori citati nel margine <abbr type="brevigraph">et</abbr> l'altra delle cose notabili.</p>
+    <p>Aggiuntovi la vita dell'Autore scritta da <abbr type="title">M. </abbr> <forename>Remigio</forename> Fiorentino.</p>
+    <figure>
+      <figDesc>A coat of arms depicting a bird with a snake in its mouth, framed by a latin inscription: iustissima virtus, pietas homini.</figDesc>
+    </figure>
+  </argument>
+ 
+<docImprint> <pubPlace><name type="city">Venezia</name></pubPlace>, <publisher><persName>
+ <forename>Pietro</forename>
+  <forename>Maria</forename>
+ <surname type="linked">Bertano</surname>, 
+</persName></publisher>,
+<docDate>1516</docDate>
+</docImprint>
+
+</titlePage>
+</front>
+
+
+<body>
+  <div1 type="libro" n="18"> 
+  <head>
+  <title>
+    Dell'historia di <abbr type="title">M.</abbr> 
+    <persName>
+ <forename>Francesco</forename>
+ <surname type="linked">Guicciardini</surname>,</persName> Gentil'huomo Fiorentino.
+  Libro <num>decimo ottavo</num>
+</title>
+</head>
+  
+ 
+  <argument>
+  <head><title>Sommario</title></head>
+  <p>Nel presente libro si contiene la passata di <surname>Borbone</surname> in <region>Toscana</region>, <abbr type="brevigraph">et</abbr> i progressi del campo della lega, la perplessità del <roleName>Pontefice</roleName>, <abbr  type="brevigraph">et</abbr> lo infame <abbr type="contraction">tradimeto</abbr>, che i <roleName>Vicerè</roleName>, <abbr type="brevigraph">et</abbr> gli altri ministri di Cesare tesero al <roleName><abbr type="contraction">Potefice</abbr></roleName>, la paura de Fiorentini, <abbr type="brevigraph">et</abbr> la solleuazione de' Cittadini ritornati in fede da <roleName>Capitani della lega</roleName>, il miserabil Sacco di <name type="city">Roma</name>, la ritirata del <roleName>Pontefice</roleName> in Castello, <abbr type="brevigraph">et</abbr> l'andata del Campo della lega appresso <name type="city">Roma</name>. I Fiorentni dichiarano ribelli i nipoti del Papa, <abbr type="brevigraph">et</abbr> il Papa medesimo adherendosi a' Francesi. Il Papa dopo molti trauagli fu liberato dagli Imperiali, la disfida dello <roleName>Imperatore</roleName>, <abbr type="brevigraph">et</abbr> del <roleName>Re</roleName> di <country>Francia</country>, et di quel d'<country>Inghilterra</country>, i nuovi disegni del <roleName>Re</roleName> <name>Arrigo</name> di ripudiare la moglie <abbr type="brevigraph">et</abbr> i praui <abbr type="contraction">cosigli</abbr> del <roleName>Cardinal d'Vrace</roleName>, <abbr type="brevigraph">et</abbr> il <abbr type="contraction">capo</abbr> della nuoua lega passa nel <country>Regno di Napoli</country>, la presa per li Francesi di molte terre del Regno, la miseria de' Milanesi, <abbr type="brevigraph">et</abbr> lo <abbr type="contraction">accampameto</abbr> de <abbr type="contraction">Fancesi</abbr> sotto <name type="city">Napoli</name> <abbr type="contraction">co</abbr> la passata di <abbr type="title">S.</abbr> <name>Polo</name>, <country>Italia</country>, <abbr type="brevigraph">et</abbr> del <roleName>Duca di Bransuich</roleName>.
+  </p>
+</argument>
+
+<lb/>
+  <note><p><date>M. D. XXVII.</date> La città di <name type="city">Roma</name>, <abbr type="brevigraph">et</abbr> tutta <country>Italia</country> di molte età prima non haueua patito tanto, quanto ella fece in questo anno del <date>1527</date>.</p></note>
+  <figure>
+     <figDesc></figDesc>
+  </figure>
+  <p>'ANNO <date>mille cinquecento ventisette</date> sarà pieno di atrocissimi, <abbr type="brevigraph">et</abbr> già per più secoli non visti accidenti: mutazione di stati; cattività di Principi: sacchi spaventosissimi di Città: carestia grande di uettonaglie: peste quasi per tutta <country>Italia</country> grandissima: pieno ogni cosa di morte, di fuga, <abbr type="brevigraph">et</abbr> di rapine. Alle quali calamità nessuna difficoltà ritardaua a dare il principio, che difficoltà, che haveva il <roleName>Duca di Borbone</roleName> di potere muovere di <name type="city">Milano</name> i <abbr type="contraction">fati</abbr> Spagnoli, <abbr type="brevigraph">pche</abbr> havendo <abbr type="contraction">covenuto</abbr> insieme che 
+  <persName>
+ <forename>Antonio</forename>
+ <surname type="linked">de Leva</surname>,</persName> rimanesse alla difesa del <country>Ducato di Milano</country> <abbr type="contraction">co</abbr> tutti i <abbr type="contraction">fati</abbr> Tedeschi che prima v'erano, nella <abbr type="contraction">sostetazione</abbr> de' quali si erano <abbr type="contraction">cosumati</abbr> tutti i danari raccolti da Milanesi, <abbr type="brevigraph">et</abbr> <abbr type="contraction">qlli</abbr> riscossi
+
+[...]
+</p>
+</div1>
+</body>
+</text>
+</TEI>
+ 
+
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<library xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd" xml:id="testimonianzedelsaccodiroma">
+		<author xml:id="ER">
+		<object n="1" xml:id="Ritratto di Clemente VII con barba">
+			<dc:identifier>1500625271</dc:identifier>
+			<cdwalite:recordWrap>
+			<cdwalite:recordID>1500625271</cdwalite:recordID>
+			<cdwalite:recordType>oggetto d'arte</cdwalite:recordType>
+			<cdwalite:recordSource>Catalogo Generale dei Beni Culturali</cdwalite:recordSource>
+			</cdwalite:recordWrap> 
+			<dc:title>Ritratto di Clemente VII con barba</dc:title>
+			<cdwalite:titleWrap>
+            <cdwalite:titleSet>Ritratto di Clemente VII con barba</cdwalite:titleSet>
+			<cdwalite:sourceTitle>Catalogo Generale dei Beni culturali</cdwalite:sourceTitle>
+			</cdwalite:titleWrap> 
+			<dc:source xml:id="CNBC">Catalogo Generale dei Beni Culturali</dc:source>
+			<dc:creator>Del Piombo, Sebastiano</dc:creator>
+			<cdwalite:displayCreator>Del Piombo, Sebastiano (Italiano, 1485-1547)</cdwalite:displayCreator> 
+			<cdwalite:indexingCreatorWrap>
+			<cdwalite:indexingCreatorSet>
+			 <cdwalite:nameCreatorSet> <cdwalite:nameCreator type="personalName"
+			termsource="VIAF" termsourceID="34727713"> Del Piombo, Sebastiano </cdwalite:nameCreator>
+			 </cdwalite:nameCreatorSet>
+			 <cdwalite:genderCreator>Maschile</cdwalite:genderCreator>
+			<cdwalite:nationalityCreator>Italiana </cdwalite:nationalityCreator>
+			 <cdwalite:vitalDatesCreator birthdate="1485" deathdate="1547"> 1485-1547
+			1522</cdwalite:vitalDatesCreator>
+			<cdwalite:roleCreator>Pittore</cdwalite:roleCreator>
+			</cdwalite:indexingCreatorSet>
+			</cdwalite:indexingCreatorWrap>
+			<dc:subject>Arti visive</dc:subject>
+			<cdwalite:classificationWrap>	
+			<cdwalite:classification>Dipinti</cdwalite:classification>
+			</cdwalite:classificationWrap> 
+			<dc:type>Dipinto</dc:type>
+			<cdwalite:objectWorkTypeWrap>
+            <cdwalite:objectWorkType>Dipinto</cdwalite:objectWorkType>
+            </cdwalite:objectWorkTypeWrap> 
+            <cdwalite:styleWrap>
+			<cdwalite:style>Manierismo</cdwalite:style>
+			</cdwalite:styleWrap> 
+			<dc:description>
+				Negli anni successivi al 1527 l'artista realizzò più ritratti di Clemente VII, che dopo il sacco di Roma per voto si era lasciato crescere la barba. Una copia su pietra fu ordinata all'artista dallo stesso papa, ma è improbabile che si tratti della nostra lavagna, piuttosto da identificarsi con un altro 'ritratto su preta', rimasto nella bottega del pittore sino al 1547 e probabilmente passato nella raccolta di Fulvio Orsini e poi ai Farnese. Più che un ritratto ufficiale, questo dipinto sembrerebbe costituire una sorta di prototipo o di modello realizzato dal vero e sfruttato dall'artista per tutte le altre versioni.
+			</dc:description>
+			<cdwalite:descriptiveNoteWrap>
+			<cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>Negli anni successivi al 1527 l'artista realizzò più ritratti di Clemente VII, che dopo il sacco di Roma per voto si era lasciato crescere la barba. Una copia su pietra fu ordinata all'artista dallo stesso papa, ma è improbabile che si tratti della nostra lavagna, piuttosto da identificarsi con un altro 'ritratto su preta', rimasto nella bottega del pittore sino al 1547 e probabilmente passato nella raccolta di Fulvio Orsini e poi ai Farnese. Più che un ritratto ufficiale, questo dipinto sembrerebbe costituire una sorta di prototipo o di modello realizzato dal vero e sfruttato dall'artista per tutte le altre versioni.</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet>
+			</cdwalite:descriptiveNoteWrap> 
+		    <dc:date>post 1527</dc:date>
+			<cdwalite:displayCreationDate>post 1527</cdwalite:displayCreationDate> 
+			<dc:coverage>Italia</dc:coverage>
+			<dc:coverage>XVI secolo</dc:coverage>
+			<cdwalite:displayMeasurements>50 x 24 cm</cdwalite:displayMeasurements> 
+			<dc:format>50 x 34 cm</dc:format>
+			<cdwalite:indexingMaterialsTechWrap>
+			<cdwalite:indexingMaterialsTechSet>
+			<cdwalite:termMaterialsTech>pittura a olio</cdwalite:termMaterialsTech>
+			<cdwalite:termMaterialsTech>lavagna</cdwalite:termMaterialsTech>
+			</cdwalite:indexingMaterialsTechSet>
+			</cdwalite:indexingMaterialsTechWrap> 
+			<dc:provenance>Museo di Capodimonte (Napoli, Italia)</dc:provenance>
+			<cdwalite:locationWrap>
+			<cdwalite:locationSet><cdwalite:locationName type="currentRepository">Museo di Capodimonte (Napoli, Italia)</cdwalite:locationName>
+			</cdwalite:locationSet>
+			</cdwalite:locationWrap>
+			<dc:rights>Proprietà Stato</dc:rights>
+			<cdwalite:rightsWork>Proprietà Stato</cdwalite:rightsWork> 
+		</object>
+	    </author>
+	</library>
