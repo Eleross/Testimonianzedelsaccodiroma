@@ -1248,11 +1248,11 @@ th,td {
 }
 
 .thumb-portfolio{
-  min-height: 700px;
+  min-height: 553px;
 }
 
 .thumb-item{
-  min-height: 500px;
+  min-height: 700px;
 }
 
 #maps{
@@ -1275,7 +1275,7 @@ th,td {
 }
 
 .table-links a:hover {
-  color: #fdebce;
+  color: #007acc;
 }
 
 .table-spaces{
@@ -1312,3 +1312,8 @@ th,td {
 .bread{
     color: #330000;
   }
+
+.th3{
+  min-height: 500px;
+}
+ 
