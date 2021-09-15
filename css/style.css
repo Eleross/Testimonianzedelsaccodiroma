@@ -1088,9 +1088,11 @@ font-family: "Garamond", serif;
 #advancedFilter
 {
 margin: 0 15% 0 15%;
-padding: 0;
+padding-left: 10px;
+padding-right: 10px;
 width: 70%;
 }
+
 
 .row {
     display: flex;
@@ -1138,7 +1140,6 @@ th,td {
 }
 
 .table-links a {
-  display: inline-block;
   color: rgba(255, 255, 255, 0.8);
   transition: 0.5s;
 }
@@ -1208,3 +1209,4 @@ th,td {
 .container-margt {
   margin-top: 100px;
 }
+
